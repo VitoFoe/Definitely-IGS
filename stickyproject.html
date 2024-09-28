@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            width: 100%;
+            height: 80px;
+            background-color: whitesmoke;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: "Century Gothic";
+            gap: 10px;
+            color: rgb(48, 63, 159);
+        }
+        nav {
+            width: 100%;
+            height: 50px;
+            background-color: rgb(203, 0, 12);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            position: sticky;
+            top: 0;
+        }
+        nav a{
+            color: white;
+            font-family: "Century Gothic";
+            text-decoration: none;
+        }
+        nav a:hover{
+            color: white;
+            font-family: "Century Gothic";
+            text-decoration: underline;
+        }
+        body {
+            height: 200vh;
+        }
+        div.cont {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        section.desc {
+            margin-top: 15px;
+            width: 83%;
+            background-color: rgb(77, 182, 193);
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            font-family: "Century Gothic";
+            color: white;
+        }
+        img {
+            width: 75px;
+        }
+        div.info {
+            margin-left: 50px;
+            font-size: 12px;
+        }
+        img.cont {
+            width: 83%;
+        }
+        footer {
+            margin-top: calc(100% - 75px - 400px - 37px);
+        }
+        div.bottom {
+            background-color: rgb(251, 200, 51);
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 350px;
+            align-items: center;
+            font-family: "Century Gothic";
+            font-size: 15px;
+        }
+        div.top {
+            background-color: rgb(58, 150, 160);
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+        section.bottom {
+            height: 350px;
+            width: 30%;
+            font-family: "Century Gothic";
+            color: white;
+            line-height: 30px;
+            font-size: 13px;
+            background-color: rgb(60, 153, 163);
+            text-align: left;
+        }
+        h1.bottom {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+        section.bottom p {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        section.bottom h3 {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        div.bottominfo {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        div.bottominfo div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        section.center p {
+            border: 1px solid white;
+            width: 120px;
+            text-align: center;
+        }
+        div.bottomblock {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        section.bottom img {
+            width: 200px;
+            margin-left: 5px;
+        }
+        section.belowdesc {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: 83%;
+            background-color: rgb(60, 153, 163);
+            height: 50px;
+            font-family: "Century Gothic"
+        }
+        section.belowdesc p.quote {
+            background-color: rgb(251, 200, 51);
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            line-height: 50px;
+        }
+        section.belowdesc p.click {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMPORTANT DATA.png" alt="IGS">
+        <div class="text">
+            <h1>Ignatius Global School</h1>
+            <p>The first choice to the best future</p>
+        </div>
+        <div class="info">
+            <p>✉️ highschool.igs@gmail.com - admsmaigs17@gmail.com</p>
+            <p>📞 (0711)377159 - 087790007105</p>
+        </div>
+    </header>
+    <nav>
+        <a href="">Home</a>
+        <a href="">Profile</a>
+        <a href="">Directory</a>
+        <a href="">PPDB 2024/2025</a>
+        <a href="">Gallery</a>
+        <a href="">E-Learning</a>
+        <a href="">JLPT Test</a>
+        <a href="">Moodle Help</a>
+    </nav>
+    <div class="cont">
+        <img class="cont" src="IGS intro.png" alt="Ignatius Global School">
+        <section class="desc">New Building for Ignatius Global School</section>
+        <section class="belowdesc">
+            <p class="quote" style="color: white;">Quotes</p>
+            <p class="click" style="color: white;">New student? Click <a href="" style="text-decoration: none; color: black;">here</a></p>
+        </section>
+    </div>
+    <footer>
+        <div class="top">
+            <section class="bottom left">
+                <h1 class="bottom" style="font-size: 30px">Contact us</h1>
+                <p>Ignatius Global School ⋅ The first choice to the best future</p>
+                <div class="bottominfo">
+                    <div>
+                        <h3>📍 Address</h3>
+                    <p style="width: 175px;">Jln. Mayor Ruslan No. 118 Kel. 20 Ilir I, Kec. Ilir Timur I Palembang, South Sumatera 30114</p>
+                    </div>
+                    <div>
+                        <h3>📞 Phone number</h3>
+                        <p>(0711)377159 - 087790007105</p>
+                    </div>
+                    <div>
+                        <h3>✉️ Email</h3>
+                        <p style="width: 175px;">highschool.igs@gmail.com - admsmaigs17@gmail.com</p>
+                    </div>
+                </div>
+            </section>
+            <section class=" bottom center">
+                <h1 class="bottom" style="font-size: 30px">Tags</h1>
+                <div class="bottomblock">
+                    <p>JLPT Info</p>
+                    <p>Short Infos</p>
+                    <p>News</p>
+                    <p>Newest Infos</p>
+                    <p>Announcements</p>
+                </div>
+            </section>
+            <section class=" bottom right">
+                <h1 class="bottom" style="font-size: 30px">Follow us</h1>
+                <img src="Symbols.png" alt="Facebook, Twitter, Instagram, Youtube">
+            </section>
+        </div>
+        <div class="bottom">
+            <p>Copyright © 2020 - 2024 Ignatius Global School All rights reserved.</p>
+            <p>Powered by sekolahku.web.id</p>
+        </div>
+    </footer>
+</body>
+</html>
